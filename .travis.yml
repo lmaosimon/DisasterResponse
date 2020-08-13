@@ -1,0 +1,19 @@
+language: python
+python:
+  - 3.7 #python console says version 3.7.6 (default, Jan 8 2020, 13:42:34)
+install: pip install -r requirements.txt
+script:
+  - python -m unittest discover -s Test/Interfacing/classes/Intents -p "test*.py"
+# TODO: Uncomment this once reporting tests are written. (They are blank currently)
+# - python -m unittest discover -s Test/Reporting -p "*test*.py"
+  # - python -m unittest discover -s Test/Simulation/Actions -p "test*.py"
+
+  - python -m unittest discover -s Test/Simulation/ -p "*test*.py"
+#  - python -m unittest discover -s Test/Simulation/Objects/Locations -p "*test*.py"
+# - python -m unittest discover -s Test
+
+# Add Code coverage if desired
+#the following line was breaking the build. Commented out for now
+#script: coverage run manage.py test
+
+# made an edit

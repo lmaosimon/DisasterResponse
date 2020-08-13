@@ -1,0 +1,56 @@
+[
+    [
+        {
+            "0": "NASA has confirmed an unidentified Aircraft is approaching Earth's atmosphere.",
+            "1": "The aircraft has signaled a white flag, assumed to mean peace.",
+            "2": "The outsiders have been hailed down and landed in the city capital.",
+            "3": "After a long meeting, the aliens have agreed to trade their technological advancements with the city.",
+            "4": "Trade has prospered, and the city is now the most technologically advanced city on Earth.",
+            "5": "The city and the alien colony established a pipeline for trade of technological advancements with our corn."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait"
+        }
+    ],
+    [
+        {
+            "0": "NASA has confirmed an unidentified Aircraft is approaching Earth's atmosphere.",
+            "1": "The aircraft has signaled a white flag, assumed to mean peace.",
+            "2": "The outsiders have been hailed down and landed in the city capital.",
+            "3": "It was a ruse! The invaders have attacked and are in a hard battle with the military force in the capital.",
+            "4": "After a long battle, the invaders were fought off and the few remaining retreated.",
+            "5": "The city manager reports approximately [30,60,1] million in damages to various businesses and homes."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "gather_military",
+            "4": "declare_emergency",
+            "5": "apply_for_federal_aid"
+        }
+    ],
+    [
+        {
+            "0": "NASA has confirmed an unidentified Aircraft is approaching Earth's atmosphere.",
+            "1": "The aircraft has signaled a white flag, assumed to mean peace.",
+            "2": "The white flag turned out to be a space gun, and the aircraft has begun striking the military jets that approached.",
+            "3": "The outsiders have taken control of all of Washington D.C",
+            "4": "The overlords have declared that if they are obeyed, life will be peaceful again.",
+            "5": "Life continues as normal with our Alien overlords."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "declare_emergency",
+            "3": "gather_military",
+            "4": "declare_fealty",
+            "5": "wait"
+        }
+    ]
+]

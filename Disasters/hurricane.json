@@ -1,0 +1,81 @@
+[
+    [
+        {
+            "0": "A tropical disturbance has been observed {}.",
+            "1": "The disturbance has become a tropical depression, moving {}",
+            "2": "The depression has grown into a tropical storm, with winds pushing above {}mph.",
+            "3": "The tropical storm is now {}",
+            "4": "The tropical storm has sustained winds of {}mph, making it now a Category {} Hurricane.",
+            "5": "The hurricane has grown to category {} as it {}",
+            "6": "The Hurricane has grown to category {}, with wind speeds reaching {}mph.",
+            "7": "The hurricane has shifted in direction, now heading {}.",
+            "8": "The hurricane has shifted again, now dissipating as it moves {}",
+            "9": "The hurricane has missed town, resulting in no casualties and no damages."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait",
+            "6": "wait",
+            "7": "wait",
+            "8": "wait",
+            "9": "wait"
+        }
+    ],
+    [
+        {
+            "0": "A tropical disturbance has been observed {}.",
+            "1": "The disturbance has become a tropical depression, moving {}",
+            "2": "The disturbance has grown into a tropical storm, with winds pushing above {}mph.",
+            "3": "The tropical storm is now {}",
+            "4": "The tropical storm has sustained winds of {} mph, making it now a Category {} Hurricane.",
+            "5": "The hurricane has grown to category {} as it {}",
+            "6": "The Hurricane has grown to category {}, with wind speeds reaching {}mph.",
+            "7": "The hurricane is now {}.",
+            "8": "The hurricane has reached city limits.",
+            "9": "Early reports put damages at {} with {} casualties"
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "order_shelter_in_place",
+            "4": "wait",
+            "5": "wait",
+            "6": "wait",
+            "7": "declare_emergency",
+            "8": "wait",
+            "9": "apply_for_state_aid"
+        }
+    ],
+    [
+        {
+            "0": "A tropical disturbance has been observed {}.",
+            "1": "The disturbance has become a tropical depression, moving {}",
+            "2": "The disturbance has grown into a tropical storm, with winds pushing above {}mph.",
+            "3": "The tropical storm is now {}",
+            "4": "The tropical storm has sustained winds of {} mph, making it now a Category {} Hurricane.",
+            "5": "The hurricane has grown to category {} as it {}",
+            "6": "The Hurricane has grown to category {}, with wind speeds reaching {}mph.",
+            "7": "The hurricane is now {}.",
+            "8": "The hurricane has reached city limits.",
+            "9": "Early reports put damages at {} with {} casualties"
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "order_shelter_in_place",
+            "4": "wait",
+            "5": "declare_emergency",
+            "6": "wait",
+            "7": "wait",
+            "8": "wait",
+            "9": "apply_for_federal_aid"
+        }
+    ]
+]
+    

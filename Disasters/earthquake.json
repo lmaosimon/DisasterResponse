@@ -1,0 +1,57 @@
+[
+    [
+        {
+            "0": "Initial reports indicate an earthquake is occuring near the city.", 
+            "1": "An earthquake has occured at a depth of [8,10,1] miles and a magnitude of [3,4.5,.1]", 
+            "2": "The earthquake has subsided. Aftershocks are assumed to begin soon.", 
+            "3": "The earthquake's aftershocks have began.", 
+            "4": "Small aftershocks have settled, initial reports indicate minimal damages and no casualties.", 
+            "5": "Reports show that the city has suffered tremendous damage, totaling roughly [10,20,.2] million."
+        },
+        {
+            "0": "order_shelter_in_place",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "declare_emergency",
+            "5": "apply_for_federal_aid"
+        }
+    ],
+    [
+        {
+            "0": "Initial reports indicate an earthquake is occuring near the city.",
+            "1": "An earthquake has occured at a depth of [10,14,1] miles and a magnitude of [6,8,.1]",
+            "2": "The earthquake has subsided. Aftershocks are assumed to begin soon.",
+            "3": "The earthquake's aftershocks have began.",
+            "4": "Small aftershocks have settled, and initial reports indicate some damages and [10,100,1] casualties.",
+            "5": "City manager reports approximately [5,15,1] million in damages to various businesses and homes."
+        },
+        {
+            "0": "order_shelter_in_place",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait"
+        }
+    ],
+    [
+        {
+            "0": "Initial reports indicate an earthquake is occuring near the city.",
+            "1": "An earthquake has occured at a depth of 7 miles and a magnitude of 8.4",
+            "2": "The earthquake has subsided but aftershocks are expected to be severe.",
+            "3": "Aftershocks have begun.",
+            "4": "Reports are coming in of serious structural damage. So far the toll is  casualties.",
+            "5": "City manager reports approximately [10, 20, 1] million in damages to various businesses and homes."
+        },
+        {
+            "0": "order_shelter_in_place",
+            "1": "declare_emergency",
+            "2": "wait",
+            "3": "wait",
+            "4": "apply_for_federal_aid",
+            "5": "wait"
+        }
+    ]
+]
+    

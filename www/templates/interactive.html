@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Python Programming Tutorials</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type=text/javascript>
+        $(function() {
+          $('a#process_input').bind('click', function() {
+            $.getJSON('/background_process', {
+              proglang: $('input[name="proglang"]').val(),
+            }, function(data) {
+              $("#result").text(data.result);
+            });
+            return false;
+          });
+        });
+    </script>
+
+
+</head>
+
+<body>
+<div>
+    <h3>Which is the best programming language of them all?</h3>
+    <form>
+        <input type="text" size="5" name="proglang">
+        <a href="#" id="process_input"><button class="btn btn-default">Submit</button></a>
+    </form>
+
+    <p id="result">OUTPUT</p>
+
+</div>
+</body>

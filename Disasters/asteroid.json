@@ -1,0 +1,56 @@
+[
+    [
+        {
+            "0": "NASA has reported a large object nearly [10,20,1] miles in diameter will make a pass near Earth.",
+            "1": "The asteroid continues to approach the earth, looking larger and larger.",
+            "2": "Experts have declared that the change of impact is negligible.",
+            "3": "As expected, the asteroid appears to have shifted its course.",
+            "4": "The asteroid is now guaranteed to miss the earth.",
+            "5": "Reports show that the only damage done is from anarchists who believed the world was ending, totaling around [1,3,1] million."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait"
+        }
+    ],
+    [
+        {
+            "0": "NASA has reported a large object nearly [30,80,5] miles in diameter will make a pass near Earth.",
+            "1": "As the asteroid approaches, it seems larger than before and is re-estimated to be nearly [100,300,5] miles in diameter",
+            "2": "Experts say it is absolutely clear the asteroid will hit.",
+            "3": "As the day presses on, the previously small dot in the sky continues to grow larger.",
+            "4": "The asteroid has continued to hurtle toward the planet at increasing speeds.",
+            "5": "The asteroid is roughly 24 hours from impact."
+        },
+        {
+            "0": "order_shelter_in_place",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "recruit_bruce_willis"
+        }
+    ],
+    [
+        {
+            "0": "NASA has reported a large object nearly [100,300,10] miles in diameter will make a pass near Earth.",
+            "1": "Reports say the large object is actually 1 Ceres, the dwarf planet from the asteroid belt.",
+            "2": "Experts say it is absolutely clear the asteroid will hit.",
+            "3": "As the day presses on, the previously small dot in the sky has grown larger than the sun.",
+            "4": "The asteroid has continued to hurtle toward the planet at increasing speeds",
+            "5": "The asteroid is 10 minutes from impact. Goodbye."
+        },
+        {
+            "0": "wait",
+            "1": "declare_emergency",
+            "2": "wait",
+            "3": "declare_anarchy",
+            "4": "wait",
+            "5": "wait"
+        }
+    ]
+]

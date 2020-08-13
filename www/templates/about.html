@@ -1,0 +1,39 @@
+{% extends "header.html" %}
+
+
+{% block body %}
+<body>
+<span class="border border-primary">
+    <div class="jumbotron">
+      <h1 class="display-4">Disaster Response Assistant</h1>
+      <p class="lead">The Disaster Response Assistant is an application that allows users to simulate and respond to
+      different disasters, both real and fictional.</p>
+      <hr class="my-4">
+      <h6 class="lead">Locations</h6>
+      <p>The DRA Application allows users to input any location in the US. We have a large backend database containing the
+      the population and population density of over 25,000 locations. However, if a user wishes to put in another location,
+      the location will be searched for via python module <i>geopy</i> and if found, will be used in the simulation.</p>
+      <br>
+        <h6 class="lead">Disasters</h6>
+        <p>Currently, the application supports several disasters. This disasters include Hurricanes, Earthquakes,
+        Wildfires, Pandemics, and Tornados. Science fiction disasters include Asteroids, Alien Invasion, and the Sun stopping fusion.</p>
+        <br>
+        <h6 class="lead">Actions</h6>
+        <p>During simulations, the user must choose from the allowed actions in order to advance. The actions allowed
+        include Waiting, Declaring a State of Emergency, Applying for Federal Aid, Applying for State Aid, Ordering an Evacuation,
+        and Ordering to Shelter in Place. Actions corresponding to science fiction disasters include Recruit Bruce Wilis, Declare Anarchy, Declaring Fealty.</p>
+        <br>
+      <a class="btn btn-primary btn-lg" href="/app" role="button">Try it!</a>
+        <br>
+        <br>
+        <br>
+        <h3 class="lead">Github</h3>
+        <p>Check out the project on our github <a href="https://github.com/gbart0198/DisasterResponse">here</a></p>
+        <br>
+        <h3 class="lead">Contributors</h3>
+        <p>Garrett Bartley, Simon Chen, Joy Folkens, Alex He, Liam McNamara</p>
+    </div>
+</span>
+</body>
+
+{% endblock %}
