@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Disaster Response Assistant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script type=text/javascript>
+        $(function() {
+          $('a#process_input').bind('click', function() {
+            $.getJSON('/background_process', {
+              input_data: $('input[name="input_data"]').val(),
+            }, function(data) {
+              $("#result").append("<p style='font-family:courier' class='text-uppercase text-center'><font color='blue'> " + data.rep_input + "</font></p>");
+              $("#result").append("<br>");
+              $("#result").append("<p style='font-family:courier' class='text-center'>" + data.result + "</p>");
+              $('input[name="input_data"]').val('');
+              var elem = document.getElementById('result');
+              elem.scrollTop = elem.scrollHeight;
+              
+            });
+            return false;
+          });
+        });
+     </script>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd; border-bottom: solid 1px #a0a0a0;">
+      <a class="navbar-brand" href="#">
+        <img src="{{ url_for('static', filename='brand.png') }}" width="454.553" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/app">Application</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div style="padding:6px">
+        <div id="result" class="overflow-auto" style="height:300px; width:800px; background-color: #e3f2fd; border-radius: 10px; border: 1px solid #a0a0a0">
+            <p class="text-center" style="font-family:courier"> Welcome to the Disaster Response Assistant. What location would you like to simulate?
+        </div>
+        
+    
+        <form action="" method="post" >
+          <div class="form-group" style="width:800px">
+            <label for="input_data">Input:</label>
+            <input name="input_data" type="text" class="form-control" id="input_data" aria-describedby="datastuff">
+          </div>
+            <a href="#" id="process_input"><button type="submit" class="btn btn-primary">Submit</button></a>
+        </form>
+    </div>
+
+
+</body>
+

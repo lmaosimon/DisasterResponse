@@ -1,0 +1,57 @@
+[
+    [
+        {
+            "0": "Tornado watch has been issued by the national weather service. There are reports of [60,81,5] mph winds near town.",
+            "1": "Tornado warning has been issued by the national weather service.",
+            "2": "Reports of tornado touching down near the northeast edge of town.",
+            "3": "The storm appears to be dissipating.",
+            "4": "Early information suggests the tornado caused minimal damage.",
+            "5": "The storm is over and residents are reporting minor damage to property." 
+        },
+        {
+            "0": "wair",
+            "1": "order_shelter_in_place",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait"
+        }
+    ],
+    [
+        {
+            "0": "Tornado watch has been issued by the national weather service. There are reports of [70,91,5] mph winds near town.",
+            "1": "Tornado warning has been issued by the national weather service.",
+            "2": "Reports of tornado touching down near the northeast edge of town.",
+            "3": "City manager reports power outages to 30% of town's power grid.",
+            "4": "Local residents have called in reporting major damages to houses. No fatalities reported.",
+            "5": "The storm is over and new information puts the death toll at [1,7,1] people. Early estimates report close to $[1,4,.1] million in damages to infrastructure."
+        },
+        {
+            "0": "wait",
+            "1": "order_shelter_in_place",
+            "2": "wait",
+            "3": "declare_emergency",
+            "4": "wait",
+            "5": "wait"
+        }
+    ],
+    [
+        {
+            "0": "Tornado watch has been issued by the national weather service. There are reports of [80,101,5] mph winds near town.",
+            "1": "Tornado warning has been issued by the national weather service.",
+            "2": "Reports of tornado touching down near the northeast edge of town.",
+            "3": "City manager reports power outages to 30% of town's power grid.",
+            "4": "Local residents have called in reporting major damages to houses. No fatalities reported.",
+            "5": "The storm is over and new information puts the death toll at [4,11,1] people. Early estimates report close to $[8,15,.1] million in damages to infrastructure."
+        },
+        {
+            "0": "wait",
+            "1": "order_shelter_in_place",
+            "2": "wait",
+            "3": "declare_emergency",
+            "4": "wait",
+            "5": "apply_for_state_aid"
+        }
+    ]
+]
+    

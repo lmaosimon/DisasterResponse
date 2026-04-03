@@ -1,0 +1,67 @@
+[
+    [
+        {
+            "0": "A small brush fire has been reported 45 miles outside of the city",
+            "1": "The brush fire has spread to the nearby trees, leading to a larger, less contained fire.",
+            "2": "The fire has spread to almost 10 acres in size and is growing rapidly.",
+            "3": "Firefighters have created control lines 20 miles outside the city to reduce the spread of the fire.",
+            "4": "The fire has grown to 40 acres in size, and is now 20 miles away from the city.",
+            "5": "The control lines have held and the fire has been reduced to 20 acres in size.",
+            "6": "Ground reports say the fire is under control, and should be completely out within a few hours.",
+            "7": "The fire has been quenched. The total effort expended by the city comes in at $100,000"
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "wait",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait",
+            "6": "wait",
+            "7": "wait"
+        }
+    ],
+    [
+        {
+            "0": "A small brush fire has been reported 45 miles outside of the city",
+            "1": "The brush fire has spread to the nearby trees, leading to a larger, less contained fire.",
+            "2": "The fire has spread to almost 10 acres in size and is growing rapidly.",
+            "3": "Firefighters have created control lines 20 miles outside the city to reduce the spread of the fire.",
+            "4": "The fire has grown to 40 acres in size, and is now 20 miles away from the city.",
+            "5": "The fire has crossed the control lines and is now 10 miles outside the city.",
+            "6": "The fire has reached the city, but has been reduced to 20 acres in size.",
+            "7": "The fire has been quenched. The city has incurred $25 million in damages."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "order_evacuation",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait",
+            "6": "declare_emergency",
+            "7": "apply_for_federal_aid"
+        }
+    ],
+    [
+        {
+            "0": "A small brush fire has been reported 45 miles outside of the city",
+            "1": "The brush fire has spread to the nearby trees, leading to a larger, less contained fire.",
+            "2": "The fire has spread to almost 10 acres in size and is growing rapidly.",
+            "3": "Firefighters have created control lines 20 miles outside the city to reduce the spread of the fire.",
+            "4": "The fire has crossed the control lines and is now 10 miles outside the city. It has grown to 60 acres in size.",
+            "5": "The fire has reached the city and is devastating residential areas.",
+            "6": "The fire is going down in size. Early reports estimate $15 million damage to residential property and $1.2 million in city expenditure towards fighting the fire."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "order_evacuation",
+            "3": "wait",
+            "4": "declare_emergency",
+            "5": "wait",
+            "6": "apply_for_federal_aid"
+        }
+    ]
+]
+    

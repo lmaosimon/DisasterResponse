@@ -1,0 +1,57 @@
+[
+    [
+        {
+            "0": "A new virus has occured in Western Europe, and seems to be lethal primarily to 20-30 year olds.", 
+            "1": "The WHO reports that the virus has a R0 value of [1,1.4,.02].", 
+            "2": "The virus has reached the US and has been declared a global pandemic", 
+            "3": "A vaccine has finished development and is beginning to be dispursed to the people of the US.", 
+            "4": "The WHO reports that the virus now has a R0 value of less than 0.5", 
+            "5": "The virus has been officially eradicated from the US."
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "order_shelter_in_place",
+            "3": "wait",
+            "4": "wait",
+            "5": "wait"
+        }
+    ],
+    [
+        {
+            "0": "A new virus has occured in Western Europe, and seems to be lethal primarily to 20-30 year olds.", 
+            "1": "The WHO reports that the virus has a R0 value of [1.3,1.9,.02].", 
+            "2": "The virus has reached the US and has been declared a global pandemic", 
+            "3": "The first case has been confirmed within municipality limits. The nationwide death toll is [10000,20000,500]", 
+            "4": "A vaccine has finished development and is being dispursed within the US. There have been [10,30,1] casualties within city limits.", 
+            "5": "The virus has been eradicated from the city. The complete death toll stands at [30,50,1]"
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "order_shelter_in_place",
+            "3": "declare_emergency",
+            "4": "wait",
+            "5": "apply_for_state_aid"
+        }
+    ],
+    [
+        {
+            "0": "A new virus has occured in Western Europe, and seems to be lethal primarily to 20-30 year olds.", 
+            "1": "The WHO reports that the virus has a R0 value of [1.4,2.5,.02].", 
+            "2": "The virus has reached the US and has been declared a global pandemic", 
+            "3": "The first case has been confirmed within municipality limits. The nationwide death toll is [20000,40000,500]", 
+            "4": "A vaccine has finished development and is being dispursed within the US. There have been [30,50,1] casualties within city limits.", 
+            "5": "The virus has been eradicated from the city. The complete death toll stands at [50,80,1]"
+        },
+        {
+            "0": "wait",
+            "1": "wait",
+            "2": "order_shelter_in_place",
+            "3": "declare_emergency",
+            "4": "wait",
+            "5": "apply_for_state_aid"
+        }
+    ]
+]
+    
